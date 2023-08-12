@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    //Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta
+    //e quantos cliente vão paga-la, calcule e informe o valor a ser pago por cliente.
+    const valorDaConta = Number(prompt("informe o valor da conta: "))
+    const numerodeClientes = Number(prompt("informe quantos clientes irão pagar a conta: "))
+    const valorPorCliente = valorDaConta / numerodeClientes
+    alert(`O valor por cliente é R$: ${valorPorCliente.toFixed(2)}`)
+</script>
+</html>

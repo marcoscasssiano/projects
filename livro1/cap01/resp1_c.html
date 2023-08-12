@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    //Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções
+    //de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto ou em 3x
+    const valor = Number(prompt("Informe o valor: "))
+    const desconto = valor / 10
+    const aVista = valor - desconto
+    alert(`Preço R$: ${valor.toFixed(2)}\n À Vista R$: ${aVista.toFixed(2)}\n Ou 3X de R$: ${(valor / 3).toFixed(2)}`)
+</script>
+</html>
