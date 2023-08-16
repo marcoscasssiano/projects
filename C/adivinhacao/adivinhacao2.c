@@ -15,7 +15,9 @@ int main(){
     scanf("%d", &chute);
     printf("seu chute foi %d\n", chute);
 
-    if (chute == numerosecreto) {
+    int acertou = (chute == numerosecreto);
+
+    if (acertou) {
         printf("parabens! você acertou!\n");
         printf("Jogue de novo, você é um bom jogador\n");
     }
