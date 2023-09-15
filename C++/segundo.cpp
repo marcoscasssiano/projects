@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int inteiro = 5;
-    cout << inteiro << endl;
+    cout << inteiro << endl;//quebra de linha
 
     float real;
     real = 5.2;
@@ -31,6 +31,20 @@ int main() {
     cout << "qual sua idade?" << endl;
     cin >> idade;
     cout << "Idade: " << idade << endl;
+
+    //Incremento e Decremento
+    cout << "a antigo:  " << a << endl;
+    //a = a+1;
+    //a+=1;
+    //a++;
+    //a+=3;
+    //a = a-1;
+    //a-=1;
+    //a--;
+    //a-=4;
+    a*=3;
+    cout << "a novo: " << a << endl;
+
 
     return 0;
 }
